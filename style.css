@@ -155,3 +155,35 @@ button:active {
         width: 100%;
     }
 }
+
+.github-link {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.github-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--text-muted);
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition:
+        color 0.2s,
+        transform 0.2s;
+}
+
+.github-link a:hover {
+    color: var(--primary);
+    transform: translateY(-1px);
+}
+
+.github-link svg {
+    width: 18px;
+    height: 18px;
+}
+
